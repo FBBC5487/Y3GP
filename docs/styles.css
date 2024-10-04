@@ -1,45 +1,53 @@
+/* Basic Styling */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
-    color: #333;
     margin: 0;
     padding: 0;
 }
 
-/* Container for centering */
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.logout {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
 .container {
     text-align: center;
     margin-top: 50px;
 }
 
-/* Green button for changing the message */
-#changeMessageButton {
-    background-color: green;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+#options button {
+    margin: 10px;
+    padding: 15px 30px;
     font-size: 16px;
-    margin-right: 10px;
-}
-
-#changeMessageButton:hover {
-    background-color: darkgreen;
-}
-
-/* Blue "Next" button */
-#nextButton {
-    background-color: blue;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-left: 10px;
-}
-
-#nextButton:hover {
-    background-color: darkblue;
 }
