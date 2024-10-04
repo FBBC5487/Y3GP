@@ -6,26 +6,38 @@ body {
     padding: 0;
 }
 
+/* Container for centering */
 .container {
     text-align: center;
     margin-top: 50px;
 }
 
-h1 {
-    color: #4CAF50; /* Green */
-}
-
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #4CAF50; /* Green */
+/* Green button for changing the message */
+#changeMessageButton {
+    background-color: green;
     color: white;
+    padding: 10px 20px;
     border: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
 }
 
-button:hover {
-    background-color: #45a049; /* Darker green */
+#changeMessageButton:hover {
+    background-color: darkgreen;
+}
+
+/* Blue "Next" button */
+#nextButton {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+#nextButton:hover {
+    background-color: darkblue;
 }
