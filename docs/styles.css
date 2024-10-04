@@ -14,12 +14,16 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     text-align: center;
+    box-sizing: border-box; /* Ensures padding is included in width */
 }
 
 .login-container input {
-    width: 100%;
+    width: 100%; /* Make the input fields take the full width of the container */
     padding: 10px;
-    margin: 10px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding is included in width */
 }
 
 button {
