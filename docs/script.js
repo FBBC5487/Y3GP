@@ -44,8 +44,8 @@ if (window.location.pathname.includes('home.html')) {
 
         // Button event listeners for navigation
         document.getElementById('notificationButton').addEventListener('click', function() {
-            alert('Navigating to Notifications...');
-            // window.location.href = 'notification.html'; // Uncomment for actual page
+            // alert('Navigating to Notifications...');
+            window.location.href = 'notification.html'; // Uncomment for actual page
         });
 
         document.getElementById('timelineButton').addEventListener('click', function() {
