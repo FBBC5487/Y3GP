@@ -3,15 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Sample Webpage</title>
+    <title>Login</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to My Sample Webpage</h1>
-        <p id="message">This is a simple webpage created with HTML, CSS, and JavaScript.</p>
-        <button id="changeMessageButton">Change Message</button>
-        <button id="nextButton">Next</button> <!-- Next Page Button -->
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Login</button>
+        </form>
     </div>
     <script src="script.js"></script>
 </body>
